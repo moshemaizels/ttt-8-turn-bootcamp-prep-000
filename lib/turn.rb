@@ -40,5 +40,5 @@ def update_array_at_with(array, index, value)
 end
 
 def turn(board)
-
+  puts "Please enter 1-9:"
 end
