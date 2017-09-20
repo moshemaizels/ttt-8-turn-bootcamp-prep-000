@@ -44,5 +44,5 @@ def turn(board)
   input = gets.strip
   input = input_to_index(input)
   if valid_move(board, input) 
-    board[input]
+    move(board, input)
 end
