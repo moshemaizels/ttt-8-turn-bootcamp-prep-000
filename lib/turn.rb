@@ -25,3 +25,16 @@ def position_taken?(board, index)
   end
 
 end
+
+def input_to_index(input)
+  input = input.to_i
+  input = input - 1
+end
+
+def move(board, index, playerChar = "X")
+  board[index] = playerChar
+end
+
+def update_array_at_with(array, index, value)
+  array[index] = value 
+end
